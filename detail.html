@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleDetail.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Judul Film</title>
+    </head>
+    <body class="body">
+        <nav class="navbar">
+            <img src="Images/netflix-logo.png" alt="" class="logo">
+            <ul class="nav-links">
+                <li class="nav-items" ><a href="#">movies</a></li>
+                <li class="nav-items" ><a href="#">series</a></li>
+                <li class="nav-items" ><a href="#">documentary</a></li>
+            </ul>
+            <div class="right-container">
+                <input type="text" class="search-box"  placeholder="search">
+                <button class="sub-btn">langganan</button>
+                <a href="#" class="login-link">Login</a>
+            </div>
+        </nav>
+        <div class="carousel-container">
+            <div class="card-left">
+                <img class="poster" src="Images/large-movie8.jpg" alt="">
+            </div>
+            <div class="card">
+                <div class="card-body">
+                <div class="top-detail">
+                    <h2>JUDUL FILM</h2>
+                    <p>tahun|durasi|rate</p>
+                    <ul class="top-menu">
+                        <li>
+                        <a href="#" class="tab active" data-id="overview">
+                            <span class="icon"><i class="overview"></i></span>
+                            <span class="text">overview</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" class="tab" data-id="trailer">
+                            <span class="icon"><i class="trailer"></i></span>
+                            <span class="text">Trailer</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" class="tab" data-id="details">
+                            <span class="icon"><i class="detailse"></i></span>
+                            <span class="text">Details</span>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" class="tab" data-id="similar">
+                            <span class="icon"><i class="similar"></i></span>
+                            <span class="text">Similar</span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                
+        
+                <div class="tab-content">
+                    <div class="tab-pane active" id="overview">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laudantium molestiae corporis provident quam, maiores error
+                        impedit veritatis animi minima, consequatur est ut vel culpa omnis
+                        asperiores deserunt quisquam qui odio excepturi aperiam odit natus
+                        nulla doloribus! Voluptatum saepe beatae reprehenderit consectetur
+                        aliquam blanditiis eaque cumque ex nisi! Asperiores porro debitis
+                        error delectus architecto incidunt doloremque, ratione temporibus
+                        nemo eaque pariatur impedit quis? Quas excepturi vero est? Debitis
+                        id eum soluta, culpa odit nesciunt? Omnis voluptates nisi nobis id
+                        sunt, laudantium nulla fuga hic sint non saepe cumque, amet, eaque
+                        ad.
+                        <div class="row">
+                            <h4>Screenshot</h4>
+                            <div class="row_posters">
+                                <img src="Images/small-movie1.jpg" alt="" class="row_poster ">
+                                <img src="Images/small-movie2.jpg" alt="" class="row_poster ">
+                                <img src="Images/small-movie3.jpg" alt="" class="row_poster ">
+                                
+                            </div>
+                        </div>
+                    </p>
+                    </div>
+                    <div class="tab-pane" id="trailer">
+                    <p>
+                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/0DAmWHxeoKw" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </p>
+                    </div>
+                    <div class="tab-pane" id="details">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                        ut repudiandae enim consequatur rerum voluptates rem obcaecati est
+                        sunt quas totam, quis, quae quibusdam eos molestias saepe tempora
+                        delectus ullam eaque iure architecto sequi vero laboriosam.
+                        Similique iure, earum molestias sapiente sed voluptatum sunt ipsum
+                        repellendus. Vitae eum ipsa voluptas, minima ut, iusto sapiente
+                        similique quaerat in, ratione eius numquam suscipit sed aperiam
+                        inventore fugit aliquid veniam cum dicta! Ipsa autem, repellat
+                        fugiat in quo voluptates animi maiores esse beatae repudiandae
+                        repellendus delectus laborum totam corrupti accusantium aut quidem
+                        culpa mollitia dolorem harum laboriosam distinctio! Aliquam
+                        debitis iste cum molestiae.
+                    </p>
+                    </div>
+                    <div class="tab-pane" id="similar">
+                        <div class="row">
+                            <div class="row_posters">
+                                <img src="Images/large-movie1.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie2.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie3.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie4.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie5.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie6.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie7.jpg" alt="" class="row_poster row_posterLarge">
+                                <img src="Images/large-movie8.jpg" alt="" class="row_poster row_posterLarge">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="detail.js"></script>
+    </body>
+</html>
