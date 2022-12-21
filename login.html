@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styleLogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="Images/notflix.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li class="nav-items" ><a href="#">movies</a></li>
+            <li class="nav-items" ><a href="#">series</a></li>
+            <li class="nav-items" ><a href="#">documentary</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-box"  placeholder="search">
+            <button class="sub-btn">langganan</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form sign-in">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <button class="submit-btn" type="submit">Login</button>
+                <div class="signup-link">
+                    <p>don't have an account? <a href="#" class="signup-link">sign up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form sign-up">
+            <form action="">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input class="email-input" type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input class="password-input" type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Confirm Password</label>
+                </div>
+                <button class="submit-btn" type="submit">Sign Up</button>
+                <div class="signup-link">
+                    <p>already have an account? <a href="#" class="signin-link">sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
